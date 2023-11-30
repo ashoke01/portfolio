@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 35);
+    font-family: 'poppins', sans-serif;
+}
+
+nav {
+    background-color: rgb(18, 18, 62);
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.left {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(212, 141, 8);
+}
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+
+}
+
+.second {
+    justify-content: center;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+
+}
+
+.firstsection>div {
+    width: 40%;
+}
+
+.left-section {
+    font-size: 2.5rem;
+    color: white;
+}
+
+#element {
+    color: rgb(186, 128, 240);
+}
+
+.purpul {
+    color: rgb(186, 128, 240);
+}
+
+a:hover {
+    color: rgb(152, 152, 218);
+}
+
+.right img {
+    width: 400px;
+}
+
+main hr {
+    margin: 50px 70px;
+    background-color: #8400ff;
+    height: 2px;
+    border: none;
+}
+
+.second-section {
+    height: 45vw;
+}
+
+.box {
+    height: 2px;
+    width: 80vw;
+    background-color: white;
+    color: white;
+    display: flex;
+}
+
+.gray {
+    color: rgb(228, 215, 215);
+    margin-left: 100px;
+}
+
+main h1 {
+    font-size: 1.9rem;
+    color: white;
+    margin: 0 100px;
+}
+
+.img-top {
+    width: 30px;
+    position: relative;
+    top: -43px;
+    left: -14px;
+}
+
+.vertical {
+    background-color: white;
+    height: 93px;
+    width: 1px;
+    margin: 0 100px;
+}
+
+.vertical-title {
+    position: relative;
+    width: 220px;
+    top: 70px;
+    font-size: 1.2rem;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 90px;
+    color: gray;
+    width: 160px;
+    font-size: 0.8rem;
+}
+
+footer {
+    color: white;
+    background-color: rgb(46, 9, 46);
+    display: flex;
+    padding: 10px 0;
+}
+
+.footer {
+    display: flex;
+    padding: 15px 100px;
+    justify-content: space-evenly;
+
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+    position: relative;
+    left: 250px;
+    top: 10px;
+    padding: 12px 0;
+}
+.footer-first{
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    top: -10px;
+    left: 30vw;
+}
+.div{
+    display: flex;
+    gap: 10vw;
+    position: relative;
+    top: 20px;
+    right: 30%;
+    margin: auto;
+}
+
+.btn {
+    padding: 12px;
+    background-color: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+.lotu{
+    display: flex;
+    flex-direction: column;
+}
+@media only screen and (max-width: 1000px) {
+    nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+    }
+    .left{
+        margin-top: 0px;
+        font-size: 2rem;
+    }
+    .div{
+        right: 60px;
+        top: 25px;
+        font-size: 13px;
+    }
+    nav ul{
+        margin-top: 0px;
+    }
+    nav ul li{
+        margin: 0 10px;
+    }
+    main h1{
+        margin: 0 70px;
+    }
+    nav ul li a{
+        font-size: 17px;
+    }
+    main hr{
+        margin: 50px 30px;
+    }
+.firstsection{
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.firstsection>div{
+    width: 360px;
+}
+.right img{
+    width: 300px;
+}
+.left-section{
+    font-size: 1.9rem;
+}
+.box{
+    flex-direction: column;
+    margin: 30px 28px;
+}
+.img-top{
+    top: 105px;
+}
+.vertical-title{
+    left: 60px;
+    width: 260px;
+}
+.vertical-desc{
+    left: 60px;
+    width: 260px;
+}
+.vertical{
+    height: 180px;
+    position: relative;
+    top: 390px;
+    left: -80px;
+}
+.second-section {
+    height: 250vw;
+}
+
+.footer {
+    padding: 20px 0px;
+}
+.footer-first{
+   width: 55%;
+   font-size: .9rem;
+   top: -20px;
+}
+
+footer .footer-rights{
+    padding: 0;
+ left: 5px;   
+}
+
+}
